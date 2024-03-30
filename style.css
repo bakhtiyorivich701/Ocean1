@@ -1,0 +1,1371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+
+header{
+    width: 100%;
+    height: 150px;
+    padding: 40px;
+}
+
+header h1{
+    color: grey;
+    font-size: 45px;
+}
+
+header h1 span{
+    color: #309AFD;
+    text-transform: uppercase;
+}
+
+header p{
+    color: gray;
+    margin-left: 8rem;
+    font-size: 1.5rem;
+
+}
+
+.video{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+#btn{
+    background: none;
+    border: none;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    bottom: 10px;
+}
+
+#iu{
+    font-size: 25px;
+    color:white;
+}
+
+.div2{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 1px solid rgb(185, 185, 185);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.box p {
+    color: gray;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.box p:hover{
+    color: #309AFD;
+}
+
+.box #icon{
+    color: #309AFD;
+    font-size: 50px;
+}
+
+.demo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.kotta{
+    background-color: #F1F2F3;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left: 16%;
+}
+
+
+.kotta1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 12px 10px 35px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.kotta1 img{
+    max-width: 300px;
+    max-height: 600px;
+}
+
+
+.close{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    color: #848586;
+}
+
+.close:hover{
+    color: #309AFD;
+}
+
+.close #icon1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text{
+    height: 90%;
+    background-color: #fff;
+    padding: 40px 55px 50px;
+}
+
+.text h2{
+    color: #309AFD;
+    font-size: 30px;
+}
+
+.text1{
+    display: flex;
+    justify-content: space-between;
+    color: #848586;
+    width: 100%;
+}
+
+.box1{
+    width: 45%;
+}
+
+.box1 p {
+    font-size: 19px;
+    line-height: 1.8em;
+    margin: 15px 0;
+}
+
+
+.box2{
+    width: 45%;
+}
+
+
+.box2 p {
+    font-size: 19px;
+    line-height: 1.8em;
+    margin: 15px 0;
+}
+
+.btn1{
+    padding: 10px 40px;
+    color: white;
+    background-color: #3299CD;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+
+.btn1:hover{
+    background-color: #60b2ff;
+    transition: .2s;
+}
+
+
+.btn{
+    padding: 10px 40px;
+    color: white;
+    background-color: #3299CD;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+
+.btn:hover{
+    background-color: #60b2ff;
+    transition: .2s;
+}
+
+
+.kotta .h2{
+  color: #666768;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.text1 .box3 {
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.box3 p {
+    font-size: 19px;
+    line-height: 1.8em;
+    margin: 15px 0;
+}
+
+.box3 i {
+    color: #9E9FA0;
+    line-height: 1.8em;
+}
+
+
+
+.box3 img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.box4{
+    width: 45%;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 500px;
+}
+
+
+.box4 p {
+    font-size: 19px;
+    line-height: 1.8em;
+    margin: 20px 0 ;
+}
+
+.box4 span{
+    color: #309AFD;
+}
+
+.kotta h2 {
+    color: #309AFD;
+    font-size: 30px;
+    padding-left: 5.6rem;
+}
+
+.text2{
+    display: flex;
+    justify-content: space-around;
+    color: #848586;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+.text3{
+    display: flex;
+    justify-content: space-around;
+    color: #848586;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+
+.box5{
+    width: 45%;
+    max-width: 500px;
+}
+
+form input{
+    font-size: 1.2rem;
+    border: 1px solid #D5D6D7;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+select{
+    font-size: 1.2rem;
+    border: 1px solid #D5D6D7;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0;
+    background-image: url('./img/select-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    z-index: 111;
+    appearance: none;
+}
+
+.area{
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+
+.maps {
+    width: 500px;
+    height: 450px;
+}
+
+
+.btn1{
+    padding: 10px 40px;
+    color: white;
+    background-color: #3299CD;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn1:hover{
+    background-color: #60b2ff;
+    transition: .2s;
+}
+
+.box5 ul {
+    line-height: 35px;
+}
+
+.rasim{
+    width: 50%;
+    
+}
+
+.kol1 .imgbox {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+} 
+
+
+.img1 {
+    background: url(./img/gallery/animal-04.jpg) no-repeat ;
+    background-size: cover;
+}
+.img2 {
+    background: url(./img/gallery//animal-06.jpg) no-repeat;
+    background-size: cover;
+}
+.img3 {
+    background: url(./img/gallery//portrait-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img4 {
+    background: url(./img/gallery//nature-06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img5 {
+    background: url(./img/gallery//nature-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img6 {
+    background: url(./img/gallery///animal-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img7 {
+    background: url(./img/gallery//portrait-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img8 {
+    background: url(./img/gallery//portrait-06.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.imgbox:hover .info{
+    opacity: 1;
+    
+}
+
+
+
+
+.info {
+    background: rgba(255, 255, 255,0.3);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    height: 100%;
+    padding: 15px 17px 17px 10px;
+    
+}
+.info p {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    height: 99%;
+    width: 99%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.onga{
+    display: flex;
+    flex-direction: column;
+    color: #848586;
+    width: 30%;
+    flex: 0 0 26%;
+    margin-left: 15px;
+}
+
+.plar{
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+.plar .active:active{
+    color: #309AFD;
+    cursor: pointer;  
+} 
+.kol1{
+  display: flex;
+  width: 100%;
+  height: 50%;
+    flex-direction: column;
+    grid-gap: 10px;
+} 
+
+.numbers{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 30px 0;
+}
+
+
+.numbers p {
+   padding: 20px;
+   background-color: #ffffff;
+   cursor: pointer;
+}
+
+.numbers p:hover {
+    color: #ffffff;
+    background-color: #309AFD;
+}
+
+.jek{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    grid-gap: 10px;
+}
+
+.rasim{
+    width: 65%;
+    height: 880px;
+}
+
+
+
+.onga .h2 {
+    color: #309AFD;
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.plar1 p{
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width:1500px) {
+    /* .div2 {
+        width: 80%;
+        height: 280px;
+    } */
+
+    .btn {
+        padding: 5px 20px;
+        color: white;
+        background-color: #3299CD;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .box1 p {
+        font-size: 16px;
+        line-height: 1.5em;
+        margin: 15px 0;
+    }
+    .box2 p {
+        font-size: 16px;
+        line-height: 1.5em;
+        margin: 15px 0;
+    }
+
+    .kotta h2 {
+        font-size: 25px;
+        padding-left: 2.6rem;
+    }
+
+    .btn {
+        padding: 5px 20px;
+        color: white;
+        background-color: #3299CD;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1rem;
+        margin-left: 0rem;
+    }
+
+    .box3 p {
+        font-size: 17px;
+    }
+
+    .box3 img {
+        max-width: 95%;
+        margin-bottom: 15px;
+    }
+    .box4 p {
+        font-size: 18px;
+        line-height: 1.6em;
+        margin: 15px 0;
+    }
+
+    select {
+        font-size: 1.1rem;
+        padding: 10px;
+        width: 90%;
+        margin: 15px 0;
+        background-position: right 10px center;
+    }
+
+    .area {
+        width: 90%;
+        margin: 15px 0;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .btn1 {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+    form input {
+        font-size: 1.1rem;
+        padding: 10px;
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .maps {
+        width: 450px;
+        height: 370px;
+        margin-bottom: 10px;
+    }
+    
+    .box5 ul {
+        line-height: 30px;
+    }
+
+    .numbers {
+        margin: 20px 0;
+    }
+
+    .numbers p {
+        padding: 17px;
+    }
+}
+
+
+@media screen and (max-width:1390px) {
+    .box1 p {
+        font-size: 16px;
+        line-height: 1.3em;
+        margin: 12px 0;
+    }
+    .box3 p {
+        font-size: 16px;
+        line-height: 1.5em;
+        margin: 15px 0;
+    }
+
+    .box3 i {
+        line-height: 1.4em;
+    }
+
+    .maps {
+        width: 400px;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .rasim {
+        width: 65%;
+        height: 800px;
+    }
+/* 
+    .div2 {
+        width: 80%;
+        height: 260px;
+    } */
+
+    header p {
+        margin-left: 6rem;
+        font-size: 1.3rem;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header {
+        height: 120px;
+        padding: 25px;
+    }
+
+    .plar {
+        margin-left: 45px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .onga .h2 {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:1350px) {
+    .box4 img{
+        width: 85%;
+    }
+
+    .box4 p {
+        font-size: 16px;
+        line-height: 1.4em;
+        margin: 15px 0;
+    }
+
+    .box {
+        width: 180px;
+        height: 180px;
+}
+.box1 p {
+    font-size: 16px;
+    line-height: 1.3em;
+    margin: 5px 0;
+}
+
+.box2 p {
+    font-size: 16px;
+    line-height: 1.3em;
+    margin: 5px 0;
+}
+.onga {
+    display: flex;
+    flex-direction: column;
+    color: #848586;
+    width: 30%;
+    flex: 0 0 30%;
+    margin-left: 10px;
+}
+
+.rasim {
+    width: 68%;
+    height: 780px;
+}
+.numbers p {
+    padding: 13px;
+}
+
+.maps {
+    width: 370px;
+    height: 320px;
+}
+
+}
+
+
+@media screen and (max-width:1200px) {
+    /* .box1 p {
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 4px 0;
+    }
+
+    .box2 p {
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 4px 0;
+    } */
+
+    .kotta {
+        background-color: #F1F2F3;
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        top: 10%;
+        left: 8%;
+    }
+
+    .div2 {
+        grid-gap: 5px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .div2 {
+        width: 80%;
+        height: 450px 
+    }
+}
+
+@media screen and (max-width:1005px) {
+    .kotta {
+        background-color: #F1F2F3;
+        width: 90%;
+        height: 85%;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .div2 {
+        width: 70%;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:955px) {
+    .kotta {
+        width: 95%;
+        height: 95%;
+        top: 2%;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .kotta h2 {
+        font-size: 25px;
+        padding-left: 1.1rem;
+    }
+
+    header {
+        height: 100px;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header p {
+        margin-left: 6rem;
+        font-size: 1.2rem;
+    }
+
+    .text1 {
+        flex-wrap: wrap;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+
+    .box1 p {
+    font-size: 17px;
+    line-height: 1.3em;
+    margin: 10px 0;
+}
+
+.text1 .box3 {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box3 img {
+    max-width: 70%;
+    margin-bottom: 0px;
+}
+
+.box3 p {
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 10px 0;
+}
+}
+
+@media screen and (max-width:785px) {
+    .div2 {
+        width: 50%;
+        height: 620px;
+    }
+}
+
+@media screen and (max-width:795px) {
+ 
+
+    .box1 p {
+        font-size: 16px;
+        line-height: 1.3em;
+        margin: 5px 0;
+    }
+
+    .maps {
+        width: 340px;
+        height: 320px;
+    }
+
+    .kotta h2 {
+        font-size: 20px;
+        padding-left: 1.5rem;
+    } 
+}
+
+@media screen and (max-width:770px) {
+    .box2 p {
+        font-size: 16px;
+        line-height: 1.1em;
+        margin: 5px 0;
+    }
+
+    .box1 p {
+        font-size: 16px;
+        line-height: 1.1em;
+        margin: 5px 0;
+    }
+
+    .kotta h2 {
+        font-size: 20px;
+        padding-left: 1.1rem;
+    } 
+}
+
+@media screen and (max-width:747px) {
+    .text {
+        height: 90%;
+        background-color: #fff;
+        padding: 40px 40px 50px;
+    }
+}
+
+@media screen and (max-width:735px) {
+    .div2 {
+        width: 55%;
+        height: 620px;
+    }
+
+    /* .rasim {
+        width: 100%;
+        height: 780px;
+    } */
+
+    .kotta1 {
+        flex-wrap: wrap;
+    }
+
+    .maps {
+        width: 290px;
+        height: 320px;
+    }
+
+    .kol1 {
+        height: 100%;
+    }
+    .rasim {
+        width: 100%;
+        height: 50%;
+    }
+    .onga {
+        margin-top: 85px;
+    }
+
+    .plar1{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    .onga {
+        margin-top: 10px;
+    }
+
+    .plar1 {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        position: absolute;
+        left: 30%;
+    }
+
+    .text {
+        height: 60%;
+        background-color: #fff;
+        padding: 25px 40px 50px;
+    }
+
+    .kotta1 img {
+        max-width: 400px;
+        max-height: 278px;
+        width: 100%;
+    }
+
+   
+}
+@media screen and (max-width:711px) {
+    .text1 .box3 {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .box3 p {
+        font-size: 16px;
+        line-height: 1.2em;
+        margin: 5px 0;
+    }
+
+    .box3 i {
+        line-height: 1.2em;
+    }
+
+    .box3 img {
+        max-width: 30%;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:670px) {
+    .div2 {
+        width: 60%;
+        height: 620px;
+    }
+
+    .area {
+        width: 90%;
+        margin: 0px 0;
+        padding: 10px;
+        font-size: 1.1rem;
+        height: 120px;
+    }
+
+    .box5 {
+        width: 100%;
+        max-width: 500px;
+    }   
+
+    form input {
+        font-size: 1rem;
+        padding: 8px;
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    select {
+        font-size: 1rem;
+        padding: 12px;
+        width: 90%;
+        margin: 10px 0;
+        background-position: right 10px center;
+    }
+
+    .text2 {
+        flex-wrap: wrap;
+    }
+
+    
+    .text3 {
+        flex-wrap: wrap;
+    }
+
+    .maps {
+        width: 449px;
+        height: 200px;
+    }
+
+    .plar1 p {
+        line-height: 30px;
+        margin: 0px 0;
+    }
+
+    .btn1 {
+        padding: 4px 21px;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .box4 {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 500px;
+    }
+
+    .box4 {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 500px;
+    }
+           
+}
+@media screen and (max-width:600px) {
+    .box {
+        width: 350px;
+        height: 180px;
+    }
+
+    .div2 {
+        width: 60%;
+        height: 1000px;
+    }
+
+    .text {
+        height: 60%;
+        background-color: #fff;
+        padding: 10px 25px 0px;
+    }
+
+    .text {
+        height: 60%;
+        background-color: #fff;
+        padding: 10px 25px 0px;
+    }
+
+    .plar1 p {
+        line-height: 25px;
+        margin: 34px 0;
+    }
+
+    .box4 p {
+        font-size: 16px;
+        line-height: 1.4em;
+        margin: 10px 0;
+    }
+
+    .text2 {
+        margin-top: 0;
+    }
+
+    .text3 {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:570px) {
+    form input {
+        font-size: 1rem;
+        padding: 5px;
+        width: 75%;
+        margin: 10px 0;
+    }
+
+    .area {
+        width: 75%;
+        margin: 0px 0;
+        padding: 10px;
+        font-size: 1.1rem;
+        height: 120px;
+    }
+
+    select {
+        font-size: 1rem;
+        padding: 12px;
+        width: 75%;
+        margin: 10px 0;
+        background-position: right 5px center;
+    }
+
+    .maps {
+        width: 400px;
+        height: 190px;
+    }
+
+    .kol1 {
+        height: 90%;
+    }
+
+    .btn {
+        margin-left: 0rem;
+    }
+
+    .text {
+        height: 60%;
+        background-color: #fff;
+        padding: 5px 15px 0px;
+    }
+
+    .plar1 p {
+        line-height: 22px;
+        margin: 7px 7px;
+    }
+
+    .plar1 {
+        left: 32%;
+    }
+
+    .box4 img {
+        width: 75%;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        margin-left: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .plar {
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .kol1 {
+        height: 80%;
+    }
+
+    .kotta1 {
+        padding: 0px 10px 45px;
+    }
+
+    .text2 {
+        margin-left: 0px;
+    }
+
+    .text3 {
+        margin-left: 15px;
+    }
+
+    .box4 {
+        max-width: 430px;
+    }
+  
+}
+@media screen and (max-width:445px) {
+    .maps {
+        width: 330px;
+        height: 190px;
+    }
+
+    .plar {
+        margin-left: 25px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .plar1 p {
+        line-height: 20px;
+        margin: 15px 0;
+    }
+
+    .plar1 {
+        left: 35%;
+    }
+
+    .kol1 {
+        height: 75%;
+    }
+
+    .box4 {
+        max-width: 350px;
+    }
+
+    .box3 p {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+    .numbers {
+        width: 40%;
+    }
+
+    .box2 p {
+        font-size: 15px;
+        line-height: 1.1em;
+        margin: 5px 0;
+    }
+
+    .box1 p {
+        font-size: 15px;
+        line-height: 1.1em;
+        margin: 5px 0;
+    }
+    .text3 {
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:490px) {
+    .close {
+        width: 100%;
+        height: 30px;
+    }
+
+    .kotta .h2 {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width:425px) {
+    .info p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .onga {
+        margin-top: -80px;
+    }
+}
+@media screen and (max-width:375px) {
+    header {
+        height: 70px;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header p {
+        margin-left: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .kotta h2 {
+        font-size: 18px;
+        padding-left: 0.2rem;
+    }
+
+    .box1 p {
+        font-size: 15px;
+        line-height: 1em;
+        margin: 5px 0;
+    }
+
+    .box2 p {
+        font-size: 15px;
+        line-height: 1em;
+        margin: 5px 0;
+    }
+
+    .plar {
+        margin-left: 25px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .onga {
+        margin-top: -175px;
+        margin-left: -15px;
+    }
+
+    .plar1 {
+        left: 31%;
+    }
+
+    .plar1 p {
+        line-height: 20px;
+        margin: 15px 5px;
+    }
+
+    .info {
+        padding: 5px 7px 7px 5px;
+    }
+    
+    .kol1 {
+        height: 60%;
+    }
+
+    .box3 p {
+        font-size: 14px;
+    }
+
+    .box3 i {
+        line-height: 1em;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+    }
+
+    .box4 {
+        max-width: 300px;
+    }
+
+    .box4 p {
+        font-size: 16px;
+        line-height: 1.2em;
+        margin: 8px 0;
+    }
+
+    .kotta h2 {
+        padding-left: 0.8rem;
+    }
+
+    .maps {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .box2 p {
+        font-size: 14px;
+    }
+
+    .box1 p {
+        font-size: 14px;
+    }
+
+    .kotta h2 {
+        padding-left: 0.8rem;
+    }
+}

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <h1><span>Ocean</span> vibes</h1>
+        <p><i>oddiy va samarali dizayn</i></p>
+    </header>
+
+   <section class="video">
+    <video id="video" autoplay muted loop>
+        <source src="./video/ocean-sea-wave-video.mp4" type="video/mp4">
+
+    </video>
+    
+    <button onclick="playPause()" id="btn"><p id="iu">❚ ❚</p></button>
+   </section>
+
+
+   <section class="div2">
+
+      <div class="box" onclick="open1()">
+        <p>kirish</p>
+        <i class="fa-solid fa-water" id="icon"></i>
+      </div>
+
+      <div class="box"  onclick="open2()">
+       <p>galereya</p>
+       <i class="fa-solid fa-photo-film" id="icon"></i>
+      </div>
+
+      <div class="box" onclick="open3()">
+       <p>guvohlar</p>
+       <i class="fa-regular fa-face-smile" id="icon"></i>
+      </div>
+
+      <div class="box" onclick="open4()">
+       <p>biz haqimizda</p>
+       <i class="fa-solid fa-droplet" id="icon"></i>
+      </div>
+
+      <div class="box" onclick="open5()">
+         <p>aloqa</p>
+        <i class="fa-solid fa-comments" id="icon"></i>
+      </div>
+   </section>
+
+
+
+
+
+<div class="demo" id="demo" >
+    <div class="kotta">
+    <div class="close"  onclick="close1()">uyga qaytish <i class="fas fa-times" id="icon1"></i></div> 
+      <div class="kotta1">
+      <img src="img/intro.jpg"  class="tm-intro-img">
+      <div class="text">
+          <h2>Okean vibes bilan tanishtirish</h2>
+          <div class="text1">
+              <div class="box1">
+                  <p>
+                      Tech Brain academy ishonchli o'quv kursi Tech Brain acedemy
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, suscipit? </p>
+                  <p>
+                      O'z hissangizni qo'shish orqali veb-saytimizni qo'llab-quvvatlashingiz mumkin bir oz orqali<b> PayPal</b>
+                      yoki do'stlaringizga Tech Brain haqida xabar tarqating.
+                       Agar sizda biron bir savol bo'lsa, bemalol yuborishingiz mumkin bizga xabar. </p>
+                  <p>
+                      <b>Credit</b> ushbu shablonda ishlatiladigan video banner va tasvirlar uchun Pexels-ga o'tadi.
+                      Ba'zi rasmlar Unsplash-dan olingan. Pexels ham, Unsplash ham bepul fotosuratlar uchun ajoyib veb-saytlardir.
+                  </p>
+              </div>
+              <div class="box2">
+                  <p>
+                      Buni qayta tarqatishga ruxsat berilmagan
+                       shablonni yuklab olinadigan ZIP fayl sifatida
+                       har qanday shablonlarni yig'ish veb-sayti.
+                  </p>
+                  <p>
+                      Yuqori o'ng burchak - bu uyga qaytish
+                      ushbu qalqib chiquvchi sahifani yopadigan belgi.
+                  </p>
+                  <p>
+                      Keyingi sahifa sizni galereyaga olib boradi
+                       sahifaga to'g'ridan-to'g'ri qaytmasdan
+                       menyu.
+                  </p>
+                  
+                       <button onclick="btn1()" class="btn">Keyingi sahifa</button>
+              </div></div>
+          </div>
+      </div>                
+  </div> 
+</div>
+
+
+
+
+<div id="demo1" class="demo">
+    <div class="kotta">
+        <div class="close"  onclick="close2()">uyga qaytish <i class="fas fa-times" id="icon1"></i></div> 
+        <div class="kotta1">
+        <div class="rasim">
+
+            <div class="kol1" id="kol1">
+                     <div class="jek">
+                <div class="imgbox img1">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+
+                <div class="imgbox img2">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+
+                <div class="imgbox img3">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+
+                <div class="imgbox img4">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+            </div>
+              <div class="jek">
+                <div class="imgbox img5">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+
+                <div class="imgbox img6">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+
+                <div class="imgbox img7">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+
+                
+                <div class="imgbox img8">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                </div>                
+               </div>
+
+
+                <div class="kol2" style="display: none;" id="kol" >                    
+                <div class="imgbox dd1">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox dd2" id="img">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox img3">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox img4">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox dimg">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox img6">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox img7">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                <div class="imgbox img8">
+                    <div class="info">
+                        <p>tech brain</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="numbers">
+                    <p onclick="barchasi()">1</p>
+                    <p onclick="port()">2</p>
+                    <p onclick="nature()">3</p>
+                    <p onclick="building()">4</p>
+                </div>
+
+            </div>
+            
+
+            <div class="onga">
+                <h2 class="h2">Galereya</h2>
+                <div class="plar">
+                    <p id="barchasi" onclick="barchasi()"  class="active"> <i class="fas fa-layer-group tm-gallery-link-icon"></i>  Barchasi </p>
+                    <p id="port" onclick="port()"  class="active"> <i class="fas fa-portrait tm-gallery-link-icon"></i> Portraitlar</p>
+                     <p id="nature" onclick="nature()"  class="active"><i class="fas fa-leaf tm-gallery-link-icon"></i> Nature</p>
+                     <p id="animal" onclick="animal()"  class="active"><i class="fas fa-paw tm-gallery-link-icon"></i> Animal </p>
+                     <p id="building" onclick="building()"  class="active"><i class="far fa-building tm-gallery-link-icon"></i> Building</p>
+                </div>
+                <div class="plar1">
+                    <p>
+                        Buning uchun turli piktogrammalardan foydalaniladi
+                        turli toifalar. 4 yoki undan ko'p bor
+                        ushbu galereyadagi fotosuratlar sahifalari. Har bir
+                        eskiz yaxshi hover effektiga ega.
+                    </p>
+                    <p>
+                        Proin lacus enim, finibus sed magna a,
+                        molestie lacinia est. Maecenas id dolor
+                        lorem. Donec sodales ex velit.
+                    </p>
+                </div></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<div id="demo2" class="demo">
+    <div class="kotta">
+        <div class="close"  onclick="close3()">return home<i class="fas fa-times" id="icon1"></i></div> 
+        <h2 class="h2">Testimonials</h2>
+        <div class="text1">                
+            <div class="box3">
+                <p>
+                    TECH BRAIN acedemy
+                   Tech Brain academy ishonchli o'quv kursi
+                    veb-sayt. Foydalanishga ruxsat berilgan
+                     u tijorat maqsadlarida. Siz ushbu shablonni CMS mavzusi yoki odatiy holga keltirishingiz mumkin
+                     Veb-sayt quruvchi shablon.
+                </p>
+                <i>
+                    You may support us by telling your friends
+                    about our TemplateMo site. Feel free to 
+                    contact us if you have anything to ask.
+                </i>
+                <p>
+                    You can make a little contribution via <b> PayPal </b>
+                        or saying about TemplateMo to your friends. Duis egestas lorem eu nisi
+                    finibus, sit amet elementum lacus pretium.
+                </p>
+                <p>
+                    In tempor felis vitae nulla feugiat aliquam.
+                    Vivamus vitae congue mi. Sed maximus velit
+                    vestibulum nisl condimentum hendrerit.
+                </p>
+            </div>
+            <div class="box3">
+                <img src="img/testimonial-01.jpg"  class="tm-mb-30">
+                    <p>
+                        "Suspendisse eu mollis diam, at ullamcorper
+                        diam. Ut sit amet arcu metus. Nullam mattis
+                        eros eget." by <span>George, Chief Editor</span>
+                    </p>
+                    <p>
+                        "Quisque et lorem accumsan, sollicitudin
+                        dolor vel, facilisis eros. Donec aliquet felis in
+                        mollis egestas." by <span class="tm-color-primary">Mary, CEO of Web</span>
+                    </p>
+            
+                       <button onclick="btn()" class="btn">Contact Us</button> 
+                </div>                 
+            <div class="box3">
+                <p>
+                    Duis sapien diam, eleifend eget vehicula sed,
+                    convallis sit amet elit. Aenean condimentum
+                    vulputate porta.
+                </p>
+                <p>
+                    Mauris accumsan erat ante, id sagittis felis
+                    gravida vitae. Sed iaculis tincidunt neque, a
+                    molestie magna vehicula at.
+                </p>
+                <p>
+                    Phasellus ornare magna nec nulla pharetra,
+                    nec tristique elit lobortis.
+                </p>
+                <img src="img/testimonial-02.jpg" alt="Image" class="tm-mt-35">
+            </div>
+        </div>
+    </div>        
+</div>    
+</div>
+
+
+
+<div id="demo3" class="demo">
+    <div class="kotta">
+        <div class="close"  onclick="close4()">uyga qaytish<i class="fas fa-times" id="icon1"></i></div> 
+    <h2> Ocean Vibelar haqida</h2>
+    <div class="text2">
+        <div class="box4">                    
+            <img src="img/about.jpg" alt="Image" class="tm-mb-30">
+            <p>
+                Suspendisse sit amet pellentesque nunc. Vivamus fringilla
+                tellus finibus lacus blandit, siet amet aliquet augue sagittis.
+                Duis nec auctor felis, nec ornare ex. In non ante ligula.
+            </p>
+            <p>
+                Curabitur non augue dignissim est pulvibar lobortis. Nunc
+                vulputate, mi vel cursus mollis, justo mauris rutrum dui, id
+                egestas ante ligula id nunc. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus.
+            </p>
+        </div>
+        <div class="box4">
+            <p>
+                You are NOT allowed to re-distribute this template ZIP file
+                on any website that <span>collects and reposts</span> free templates
+                from many different websites.
+            </p>
+            <p>
+                Pellentesque vitae ipsum vel risus molestie cursus nec quis
+                lectus. Duis egestas lorem eu nisi finibus, sit amet
+                elementum lacus pretium. In tempor felis vitae nulla feugiat aliquam.
+            </p>
+            <p>
+        If you need a working HTML contact form, 
+        please visit our contact page. </p>
+            
+            <button onclick="btn()" class="btn">Contact Us</button> 
+          
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="demo4" class="demo">
+    <div class="kotta">
+        <div class="close"  onclick="close5()">uyga qaytish<i class="fas fa-times" id="icon1"></i></div> 
+    <h2>Contact Us</h2>
+    <div class="text3">
+        <div class="box5">
+            <form>
+                    <input type="text" name="name" placeholder="Full Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <select>
+                        <option >Subject</option>
+                        <option value="sales">Sales &amp; Marketing</option>
+                        <option value="creative">Creative Design</option>
+                        <option value="uiux">UI / UX</option>
+                    </select>
+                    <textarea rows="8" name="message" class="area" placeholder="Message"></textarea>
+
+                    <button onclick="btn()" class="btn1">Send it now</button> 
+            </form>
+        </div>
+        <div class="box5">
+                <div class="map1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.770740871111!2d69.25823391505533!3d41.29209377927301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bf37d8d5ca1%3A0x76e36588bd292ebc!2sTechBrain%20academy!5e0!3m2!1sen!2s!4v1648337499265!5m2!1sen!2s" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <address>
+                Toshkent sh Yakkasaroy t, <br>
+                Shota Rustaveli ko'chasi
+            </address>
+
+            <ul>
+                <li>
+                        <i class="fas fa-phone tm-contact-link-icon"></i>
+                        Tel: +77 777 77 77
+                </li>
+                <li>
+                        <i class="fas fa-at tm-contact-link-icon"></i>
+                        Email: info@techbrain.com
+                </li>
+                <li>
+                        <i class="fas fa-link tm-contact-link-icon"></i>
+                        URL: www.techbrainacademy.com
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+   var video = document.getElementById("video");
+var playButton = document.getElementById("btn");
+
+
+playButton.addEventListener('click', (e) => {
+  if(video.paused){
+    video.play()
+    e.target.textContent = '❚ ❚'
+  } else {
+    video.pause()
+    e.target.textContent = '►'
+  }
+})
+//----------------------------------------
+
+function aralash() {
+    document.querySelector('.img1').style.backgroundImage = 'url(./img/gallery//building-01.jpg)'
+    document.querySelector('.img2').style.backgroundImage = 'url(./img/gallery//nature-02.jpg)'
+    document.querySelector('.img3').style.backgroundImage = 'url(./img/gallery//animal-03.jpg)'
+    document.querySelector('.img4').style.backgroundImage = 'url(./img/gallery//building-04.jpg)'
+    document.querySelector('.img5').style.backgroundImage = 'url(./img/gallery//nature-05.jpg)'
+    document.querySelector('.img6').style.backgroundImage = 'url(./img/gallery//animal-06.jpg)'
+    document.querySelector('.img7').style.backgroundImage = 'url(./img/gallery//building-07.jpg)'
+    document.querySelector('.img8').style.backgroundImage = 'url(./img/gallery//portrait-08.jpg)'
+}
+function port() {
+    document.querySelector('.img1').style.backgroundImage = 'url(./img/gallery//portrait-01.jpg)'
+    document.querySelector('.img2').style.backgroundImage = 'url(./img/gallery//portrait-02.jpg)'
+    document.querySelector('.img3').style.backgroundImage = 'url(./img/gallery//portrait-03.jpg)'
+    document.querySelector('.img4').style.backgroundImage = 'url(./img/gallery//portrait-04.jpg)'
+    document.querySelector('.img5').style.backgroundImage = 'url(./img/gallery//portrait-05.jpg)'
+    document.querySelector('.img6').style.backgroundImage = 'url(./img/gallery//portrait-06.jpg)'
+    document.querySelector('.img7').style.backgroundImage = 'url(./img/gallery//portrait-07.jpg)'
+    document.querySelector('.img8').style.backgroundImage = 'url(./img/gallery//portrait-08.jpg)'
+}
+function nature() {
+    document.querySelector('.img1').style.backgroundImage = 'url(./img/gallery//nature-01.jpg)'
+    document.querySelector('.img2').style.backgroundImage = 'url(./img/gallery//nature-02.jpg)'
+    document.querySelector('.img3').style.backgroundImage = 'url(./img/gallery//nature-03.jpg)'
+    document.querySelector('.img4').style.backgroundImage = 'url(./img/gallery//nature-04.jpg)'
+    document.querySelector('.img5').style.backgroundImage = 'url(./img/gallery//nature-05.jpg)'
+    document.querySelector('.img6').style.backgroundImage = 'url(./img/gallery//nature-06.jpg)'
+    document.querySelector('.img7').style.backgroundImage = 'url(./img/gallery//nature-07.jpg)'
+    document.querySelector('.img8').style.backgroundImage = 'url(./img/gallery//nature-08.jpg)'
+}
+
+
+function animal() {
+    document.querySelector('.img1').style.backgroundImage = 'url(./img/gallery//animal-01.jpg)'
+    document.querySelector('.img2').style.backgroundImage = 'url(./img/gallery//animal-02.jpg)'
+    document.querySelector('.img3').style.backgroundImage = 'url(./img/gallery//animal-03.jpg)'
+    document.querySelector('.img4').style.backgroundImage = 'url(./img/gallery//animal-04.jpg)'
+    document.querySelector('.img5').style.backgroundImage = 'url(./img/gallery//animal-05.jpg)'
+    document.querySelector('.img6').style.backgroundImage = 'url(./img/gallery//animal-06.jpg)'
+    document.querySelector('.img7').style.backgroundImage = 'url(./img/gallery//animal-07.jpg)'
+    document.querySelector('.img8').style.backgroundImage = 'url(./img/gallery//animal-08.jpg)'
+}
+
+
+function building() {
+    document.querySelector('.img1').style.backgroundImage = 'url(./img/gallery//building-01.jpg)'
+    document.querySelector('.img2').style.backgroundImage = 'url(./img/gallery//building-02.jpg)'
+    document.querySelector('.img3').style.backgroundImage = 'url(./img/gallery//building-03.jpg)'
+    document.querySelector('.img4').style.backgroundImage = 'url(./img/gallery//building-04.jpg)'
+    document.querySelector('.img5').style.backgroundImage = 'url(./img/gallery//building-05.jpg)'
+    document.querySelector('.img6').style.backgroundImage = 'url(./img/gallery//building-06.jpg)'
+    document.querySelector('.img7').style.backgroundImage = 'url(./img/gallery//building-07.jpg)'
+    document.querySelector('.img8').style.backgroundImage = 'url(./img/gallery//building-08.jpg)'
+}
+
+
+
+
+
+//----------------------------------------
+
+
+function close1() {
+    document.getElementById("demo").style.display = "none";
+}
+
+function open1() {
+    document.getElementById("demo").style.display = "block";
+    document.getElementById("demo1").style.display = "none";
+    document.getElementById("demo2").style.display = "none";
+    document.getElementById("demo3").style.display = "none";
+    document.getElementById("demo4").style.display = "none";
+
+}
+
+
+ 
+  function close2() {
+     document.getElementById("demo1").style.display = "none";
+  }
+ function open2() {
+     document.getElementById("demo1").style.display = "block";
+     document.getElementById("demo").style.display = "none";
+    document.getElementById("demo2").style.display = "none";
+    document.getElementById("demo3").style.display = "none";
+    document.getElementById("demo4").style.display = "none";
+
+ }
+
+
+
+function close3() {
+    document.getElementById("demo2").style.display = "none";
+}
+
+function open3() {
+    document.getElementById("demo2").style.display = "block";
+    document.getElementById("demo").style.display = "none";
+    document.getElementById("demo1").style.display = "none";
+    document.getElementById("demo3").style.display = "none";
+    document.getElementById("demo4").style.display = "none";
+}
+
+
+
+function close4() {
+    document.getElementById("demo3").style.display = "none";
+}
+
+function open4() {
+    document.getElementById("demo3").style.display = "block";
+    document.getElementById("demo").style.display = "none";
+    document.getElementById("demo2").style.display = "none";
+    document.getElementById("demo1").style.display = "none";
+    document.getElementById("demo4").style.display = "none";
+}
+
+//----------
+
+
+function close5() {
+    document.getElementById("demo4").style.display = "none";
+}
+
+function open5() {
+    document.getElementById("demo4").style.display = "block";
+    document.getElementById("demo").style.display = "none";
+    document.getElementById("demo2").style.display = "none";
+    document.getElementById("demo3").style.display = "none";
+    document.getElementById("demo1").style.display = "none";
+}
+
+function btn(){
+    document.getElementById("demo4").style.display = "block";
+    document.getElementById("demo3").style.display = "none";
+    document.getElementById("demo2").style.display = "none";
+    document.getElementById("demo1").style.display = "none";
+}
+
+function btn1() {
+    document.getElementById("demo1").style.display = "block";
+    document.getElementById("demo").style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
